@@ -1,0 +1,15 @@
+package org.example.heranca.ex1;
+
+public class Main {
+    public static void main(String[] args) {
+        //instanciar classes
+
+        Cliente cliente = new Cliente("Nunu", 28, "13/09/2025" , "Débito");
+        Funcionario funcionario = new Funcionario("Nunu" , 23 , "123456" , "trainner" , 100.000);
+
+        System.out.println(cliente.toString());
+        System.out.println(funcionario);
+
+
+    }
+}
